@@ -42,5 +42,5 @@
 --  4  E  555.323077
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---  
+--  SELECT K0, AVG(c12) FROM tbl1 WHERE  c13>400 GROUP BY K0;
 
