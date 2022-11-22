@@ -44,4 +44,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 
-SELECT k0, avg(c12) FROM tbl1 where c13 > 400 group by k0;
+select k0, avg(c21) from tbl1 INNER JOIN tbl2 ON tbl1.k1 = tbl2.k1 where c13> 400 group by k0;
